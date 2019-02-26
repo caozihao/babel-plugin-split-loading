@@ -3,11 +3,12 @@
     "@babel/preset-env",
   ],
   "plugins": [
-    [
-      "split-loading",
-      {
-        "library": "lodash",
-      }
-    ]
+    // 打开下面注释后，会启用 split-loading 插件，切分依赖包，从70k变成2k
+    // [
+    //   "split-loading",
+    //   {
+    //     "library": "lodash",
+    //   }
+    // ]
   ]
 }
